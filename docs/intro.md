@@ -1,47 +1,54 @@
 ---
 sidebar_position: 1
+title: Introduction
 ---
 
-# Tutorial Intro
+# Situational Awareness System 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The **Situational Awareness System (SAS)** is a real-time, AI-powered platform designed to detect, classify, and visualize local events such as crimes, disasters, and social incidents using social media data. It combines advanced **natural language processing (NLP)**, **deep learning**, and **geospatial analysis** to support timely decision-making.
 
-## Getting Started
+## Why SAS?
 
-Get started by **creating a new site**.
+In today's digital age, platforms like Twitter and Telegram are often the first places where users share urgent events. However, the massive flow of information makes it difficult to manually track and analyze these incidents.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+SAS solves this problem by:
 
-### What you'll need
+- **Automatically detecting events** from social media streams.
+- **Classifying events** by type (crime, accident, disaster, etc.).
+- **Inferring geographic locations** from text, even when no coordinates are provided.
+- **Visualizing events** on an interactive map with real-time updates.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Key Features
 
-## Generate a new site
+- 🧠 **AI-Powered Event Detection**  
+  Uses deep learning models and Named Entity Recognition (NER) to extract meaningful insights from raw text.
 
-Generate a new Docusaurus site using the **classic template**.
+- 🗺️ **Interactive Awareness Map**  
+  View live and historical events with geolocation context.
 
-The classic template will automatically be added to your project after you run the command:
+- 🔔 **Region-Based User Notifications**  
+  Users can subscribe to geographic areas and receive alerts for relevant incidents.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- 📊 **Dashboards and Reports**  
+  Generate analytical insights, event timelines, and visual statistics.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Target Users
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Emergency response teams and disaster managers  
+- Journalists and researchers  
+- Local authorities and city planners  
+- Citizens and community members
 
-## Start your site
+## Platform Architecture
 
-Run the development server:
+SAS is built with a **microservices architecture** using modern backend and frontend technologies. It includes components for:
 
-```bash
-cd my-website
-npm run start
-```
+- Data scraping from social media (Twitter, Telegram)
+- Event detection and location inference
+- User identity and access control
+- Notifications and preference management
+- Web UI and API gateway
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+---
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+In the next sections, you’ll find detailed documentation for each of these components, their roles, APIs, and deployment steps.
