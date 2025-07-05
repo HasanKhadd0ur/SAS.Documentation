@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/SAS.Documentation/blog","blogTitle":"Blog","authorsListPath":"/SAS.Documentation/blog/authors"}')}}]);
