@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introduction to the SAS Project","permalink":"/SAS.Documentation/blog/introduction-to-sas","unlisted":false,"date":"2025-07-31T00:00:00.000Z"}]}')}}]);

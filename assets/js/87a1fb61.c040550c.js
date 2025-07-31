@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkclassic=self.webpackChunkclassic||[]).push([[49],{2018:a=>{a.exports=JSON.parse('{"authors":[{"name":"Hasan Khaddour","title":"Software Engineer","url":"https://github.com/HasanKhadd0ur","imageURL":"image.png","key":"hasan","page":null,"count":1}]}')}}]);
